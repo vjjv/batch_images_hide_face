@@ -5,8 +5,11 @@ Batch hide face script for images
 //output in 'blurred'
 //install python3
 
-//install numpy
+install numpy
+```python
 sudo pip3 install numpy
+```
+
 
 //install open-cv
 sudo pip3 install opencv-python
