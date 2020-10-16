@@ -5,6 +5,7 @@ Batch hide face script for images
 - output in 'blurred'
 - install python3
 
+
 install numpy
 ```
 sudo pip3 install numpy
@@ -25,6 +26,12 @@ csrutil disable
 reboot in normal mode and mount root with write permissions
 ```
 sudo mount -uw /
+```
+
+paste haarcascade xml in /usr/share/opencv/haarcascades/haarcascade_frontalface_alt2.xml 
+```
+sudo mkdir -p /usr/share/opencv/haarcascades/
+sudo cp haarcascade_frontalface_alt2.xml /usr/share/opencv/haarcascades/
 ```
 
 run script
