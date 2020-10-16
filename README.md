@@ -1,9 +1,9 @@
 # batch_images_hide_face
 Batch hide face script for images
 
-//input in 'images'
-//output in 'blurred'
-//install python3
+- input in 'images'
+- output in 'blurred'
+- install python3
 
 install numpy
 ```
